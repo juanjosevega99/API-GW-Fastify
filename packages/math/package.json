@@ -1,0 +1,26 @@
+{
+  "name": "@booking-services/math",
+  "version": "0.0.1",
+  "description": "This package contains all the business capabilities for math operations",
+  "author": "Juan Jose Vega <juanjosevegaquintero@hotmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "16.0.0",
+    "mongoose": "6.2.4",
+    "winston": "3.6.0"
+  }
+}
