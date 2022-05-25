@@ -1,0 +1,37 @@
+{
+  "name": "@booking-service/apit-gateway",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Juan Jose Vega <juanjosevegaquintero@hotmail.com>",
+  "homepage": "https://github.com/juanjosevega99/API-GW-Fastify#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanjosevega99/API-GW-Fastify.git"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "inspec": "node --inspect src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/juanjosevega99/API-GW-Fastify/issues"
+  },
+  "dependencies": {
+    "fastify": "3.27.2",
+    "fastify-autoload": "3.11.0",
+    "fastify-plugin": "3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  }
+}
