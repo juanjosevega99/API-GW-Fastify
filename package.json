@@ -1,6 +1,15 @@
 {
   "name": "root",
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "bootstrap": "yarn install -W && lerna bootstrap"
+  },
   "private": true,
+  "license": "ISC",
   "devDependencies": {
     "lerna": "4.0.0"
   }
